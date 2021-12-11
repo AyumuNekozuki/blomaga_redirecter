@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "blomaga_redirector",
+  "version": "0.1",
+  "description": "ユーザーブロマガからWebArchiveに案内する拡張機能",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://ch.nicovideo.jp/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "main.css"
+      ]
+    }
+  ]
+}
